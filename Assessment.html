@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        @font-face { 
+            font-family: Lato; src: url('assets/lato/Lato-Thin.TTF');
+
+        }
+        html, body 
+        {
+            margin: 0;
+            padding: 0;
+            font-family: Lato;
+        }
+        * {box-sizing: border-box;}
+        div.imgtop 
+        {
+            background: url("assets/images/iStock-617907442.jpg");
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            margin: auto;
+            margin-top: -10.75%;
+            position: relative;
+            z-index: 2;
+            text-align:left;
+        }
+        img.top-form
+        {
+            max-width: 100%;
+        }
+        div.textbox 
+        {
+            opacity: 1;
+            position: absolute;
+            top:46.5%;
+            left: 55.2%;
+            text-transform: uppercase;
+            color: white;
+            font-size:3.37vw;
+            letter-spacing: 0.02em;
+            
+        }
+        .baroverlay
+        {
+            margin-top:10.75%;
+            width:10px;
+            
+            z-index:4;
+        }
+        .freespirit
+        {
+            margin-top: -8.75%;
+            margin-left: 10%;
+            width:30%;
+            filter: invert(.5) brightness(300%);
+            position:absolute;
+            z-index:6;
+        }
+        .container {
+            position: absolute;
+            margin-top: 10.75%;
+            width: 100%;
+            
+        }
+        .topnav {
+            position:relative;
+            margin-top:.25%;
+            margin-right:12%;
+            overflow:hidden;
+            opacity:1;
+        }
+        .topnav a {
+            
+            float:right;
+            position:relative;
+            margin-right:2%;
+            display:block;
+            color: white;
+            text-align:center;
+            padding: 2.25% 1%;
+            text-decoration: none;
+            font-size: .8vw;
+        }
+        .topnav a:hover {
+            background-color: white;
+            opacity:.4;
+            color: black;
+        }
+        div.midtitle
+        {
+            opacity: 1;
+            position: relative;
+            text-align:center;
+            text-transform: uppercase;
+            color: black;
+            padding-top:5.55%;
+            font-size:3.65vw;
+        }
+        .btn-parent
+        {
+            text-align: center;
+        }
+        .btn
+        {
+            
+            display:inline-block;
+            background-color:deepskyblue;
+            height: 4vw;
+            width:4vw;
+            border-radius:50%;
+            position:relative;
+            margin:0 6%;
+            z-index:8;
+        } 
+        div.middletext
+        {
+            text-align:center;
+            font-size:.8vw;
+            line-height: 150%;
+            margin:1.5%;
+        }       
+        div.imgBottom 
+        {
+            background: url("assets/images/iStock-984199180.jpg");
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            transform: scale(-1,1);
+            bottom: 0;
+            position: relative;
+            z-index: 2;
+            margin: auto;
+        }
+        img.bottom-form
+        {
+            max-width: 100%;
+        }
+        div.overlay
+         {
+            background: linear-gradient(rgb(0, 0, 0,0),rgba(0,0,0,1));
+            background-repeat:no-repeat;
+            background-size:cover;
+            height:55.75%;
+            bottom:0px;
+            left:0px;
+            position: fixed;
+            width:100%;
+            z-index: 3;
+         }
+    </style>
+</head>
+<body>
+   
+    <div class="imgtop"> 
+        <div class="container">
+            <img class="freespirit" src="assets/svg/logo.svg" />
+            <div class="topnav">
+                
+                <a href="#home">Download Our App</a>
+                <a href="#home">Our Team</a>
+                <a href="#home">Get in Touch</a>
+                <a href="#home">Out Beliefs</a>
+                <a href="#home">Who We Are</a>
+            </div>
+        </div> 
+      <img class="top-form" src="assets/images/iStock-617907442.jpg" alt="my bot boi" style="visibility:hidden"/>
+        
+        <div class="textbox" >
+            your adventure<br />is calling.
+        </div>       
+    </div>
+    <div class="midtitle">
+        BE A <b>FREE SPIRIT</b>
+    </div>
+        <div class="middletext">
+            <b>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut frugit, sed quia consequuntur magni dolores eos qui ratione<br />
+            voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</b>
+            <div class="btn-parent">
+                <br />
+                <br/>
+                <div class="btn"></div>
+                <div class="btn"></div>
+                <div class="btn"></div>
+            </div>
+        </div>
+    
+    
+    <div class="imgBottom">
+        <img class="bottom-form" src="assets/images/iStock-984199180.jpg" alt="my bot boi" style="visibility:hidden; "/>
+        <div class="overlay"></div>    
+    </div>
+</body>
+</html>
